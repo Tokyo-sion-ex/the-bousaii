@@ -1,0 +1,50 @@
+.app {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.selector {
+  margin-bottom: 20px;
+}
+
+.selector select {
+  margin-left: 8px;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.template-section textarea {
+  width: 100%;
+  font-size: 14px;
+  padding: 8px;
+  font-family: monospace;
+}
+
+.result-section pre {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+}
